@@ -1,0 +1,10 @@
+[package]
+name = "html-strong-components"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+html-strong = { path = "../html-strong" }
+axum = "0.5.4"
+tokio = { version = "1.18.0", features = ["full"] }
+tower-http = { version = "0.3.2", features = ["fs"] }
